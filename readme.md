@@ -21,3 +21,11 @@ Can't find the language you are learning? Shoot me an email at vokoye17@gmail.co
 - Make sure to change your keyboard layout, then go ahead and start practicing!
 - Once you have completed a word, press Spacebar/Enter/Return to get the next word!
 - Your typing speed (in seconds per key) is displayed at the top of the extension.
+
+### Credits
+Word Lists are primarily sourced using text files on Github. This project would not be possible without these repositories:
+
+- Arabic
+    - https://github.com/jamalamch/Arabic-Words
+- Russian
+    - https://github.com/danakt/russian-words
