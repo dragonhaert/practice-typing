@@ -32,5 +32,7 @@ Word Lists are primarily sourced using text files on Github. This project would 
 - Gujarati
     - https://github.com/kartikm/gu-wordlist
     - https://github.com/gujarati-ir/Gujarati-Stop-Words
+- Mandarin
+    - https://github.com/nk2028/opencc-data
 - Russian
     - https://github.com/danakt/russian-words
