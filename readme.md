@@ -21,3 +21,16 @@ Can't find the language you are learning? Shoot me an email at vokoye17@gmail.co
 - Make sure to change your keyboard layout, then go ahead and start practicing!
 - Once you have completed a word, press Spacebar/Enter/Return to get the next word!
 - Your typing speed (in seconds per key) is displayed at the top of the extension.
+
+### Credits
+Word Lists are primarily sourced using text files on Github. This project would not be possible without these repositories:
+
+- Arabic
+    - https://github.com/jamalamch/Arabic-Words
+- German
+    - https://gist.github.com/2f4f4154b8ae218600eb091a5706b5f4.git
+- Gujarati
+    - https://github.com/kartikm/gu-wordlist
+    - https://github.com/gujarati-ir/Gujarati-Stop-Words
+- Russian
+    - https://github.com/danakt/russian-words
