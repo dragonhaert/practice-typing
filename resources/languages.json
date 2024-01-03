@@ -1,0 +1,38 @@
+{
+    "arabic" : {
+        "title":"Arabic",
+        "file_path":"resources/data/arabic.txt",
+        "direction":"rtl",
+        "code":"ar"
+    },
+    "german" : {
+        "title":"German",
+        "file_path":"resources/data/german.txt",
+        "direction":"ltr",
+        "code":"de"
+    },
+    "gujarati" : {
+        "title":"Gujarati",
+        "file_path":"resources/data/gujarati.txt",
+        "direction":"ltr",
+        "code":"gu"
+    },
+    "mandarin_simplified" : {
+        "title":"Mandarin (Simplified)",
+        "file_path":"resources/data/mandarin_simplified.txt",
+        "direction":"ltr",
+        "code":"zh_Hans"
+    },
+    "mandarin_traditional" : {
+        "title":"Mandarin (Traditional)",
+        "file_path":"resources/data/mandarin_traditional.txt",
+        "direction":"ltr",
+        "code":"zh_Hant"
+    },
+    "russian" : {
+        "title":"Russian",
+        "file_path":"resources/data/russian.txt",
+        "direction":"ltr",
+        "code":"ru"
+    }
+}
