@@ -27,5 +27,8 @@ Word Lists are primarily sourced using text files on Github. This project would 
 
 - Arabic
     - https://github.com/jamalamch/Arabic-Words
+- Gujarati
+    - https://github.com/kartikm/gu-wordlist
+    - https://github.com/gujarati-ir/Gujarati-Stop-Words
 - Russian
     - https://github.com/danakt/russian-words
