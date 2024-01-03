@@ -4,6 +4,9 @@
 
 ### Languages Supported:
 - Arabic
+- German
+- Gujarati
+- Mandarin (Simplified and Traditional)
 - Russian
 
 Can't find the language you are learning? Shoot me an email at vokoye17@gmail.com!
