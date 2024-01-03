@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Practice Typing",
+    "description": "Practice typing with a new keyboard layout!",
+    "version": "1.0",
+    "icons": {
+        "16": "icon/16.png",
+        "32": "icon/32.png",
+        "48": "icon/48.png",
+        "128": "icon/128.png"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "/resources/*"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "src/popup.html",
+        "default_icon": "icon/16.png"
+    }
+}

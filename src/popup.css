@@ -1,0 +1,17 @@
+input {
+    width: 300px;
+    height: 60px;
+    letter-spacing: 0.1rem;
+    font-size: 32px;
+    border: none
+}
+
+label {
+    height: 24px;
+    font-size: 20px;
+}
+
+label#kps {
+    margin-left: auto;
+    color: red;
+}
