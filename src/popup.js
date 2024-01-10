@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const lang_selecter = document.getElementById('lang')
             for (key in languages) {
                 option = document.createElement('option')
-                Object.assign(option, { id:`lang_${key}`, value: key, text: languages[key]['title'] })
+                Object.assign(option, { id: `lang_${key}`, value: key, text: languages[key]['title'] })
                 lang_selecter.appendChild(option)
                 console.log(languages[key]['title'], languages[key]['file_path'])
             }
@@ -39,13 +39,13 @@ document.addEventListener('DOMContentLoaded', async () => {
         })
 
     const stored_lang = localStorage.getItem('lang')
-    
+
     Object.assign(document.getElementById('input'), { lang: languages[stored_lang].code, dir: languages[stored_lang].direction })
     Object.assign(document.getElementById('target'), { lang: languages[stored_lang].code, dir: languages[stored_lang].direction })
-    
+
     document.getElementById('input').focus()
     document.getElementById(`lang_${stored_lang}`).setAttribute('selected', 'selected')
-    
+
     document.getElementById('input').addEventListener('keypress', (event) => {
         if ((event.key == ' ' || event.key == 'Enter') && document.getElementById('input').value == document.getElementById('target').value) {
             event.preventDefault()
@@ -54,11 +54,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     })
 
     document.getElementById('lang').addEventListener('change', (event) => {
-        console.log('selection made')
         newlang = document.getElementById('lang').value
         localStorage.setItem('lang', newlang)
         location.reload()
     })
-    
+
     await reset()
 })
